@@ -4,33 +4,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio | Ximena</title>
-
+    <title>Portafolio | Ximena González P.</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header class="hero text-white text-center py-5">
+    <header class="hero text-black text-center py-5">
         <div class="container">
-            <h1 class="display-4 fw-bold">Ximena</h1>
+            <h1>Ximena González Pereira</h1>
             <p class="lead mb-0">Portafolio personal | Desarrollo y proyectos web</p>
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light  shadow-sm sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold text-success" href="#">Ximena</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <div class="navbar-nav text-center">
                     <a class="nav-link" href="#sobre-mi">Sobre mí</a>
-                    <a class="nav-link" href="#proyectos">Proyecto</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
                     <a class="nav-link" href="#contacto">Contacto</a>
                 </div>
             </div>
@@ -40,13 +37,14 @@
     <main class="py-5">
         <section id="sobre-mi" class="mb-5">
             <div class="container">
-                <div class="card card-custom border-0 shadow-sm">
+                <div class="card card-custom border-1 shadow-sm">
                     <div class="card-body p-4 p-md-5">
                         <h2 class="mb-3">Sobre mí</h2>
-                        <p class="mb-0">
-                            Hola, soy Ximena. Este es mi portafolio personal, donde comparto parte de mi trabajo
-                            y proyectos relacionados con desarrollo web y tecnología. Me interesa crear soluciones
-                            digitales funcionales, visuales y útiles para las personas.
+                        <p>
+                            Hola, soy Ximena. Este es mi portafolio personal, donde comparto parte de mi
+                            trabajo, algunos proyectos relacionados con desarrollo web y tecnología. <br>Me interesa
+                            crear
+                            soluciones digitales funcionales, visuales y útiles para las personas.
                         </p>
                     </div>
                 </div>
@@ -55,25 +53,32 @@
 
         <section id="proyectos" class="mb-5">
             <div class="container">
-                <div class="card card-custom border-0 shadow-sm">
+                <div class="card card-custom border-1 shadow-sm">
                     <div class="card-body p-4 p-md-5">
-                        <h2 class="mb-4">Proyecto destacado</h2>
+                        <h2 class="mb-3">Proyecto maqueta</h2>
+                        <h3 class="h5">Creación de un Webmapping</h3>
+                        <p>
+                            Proyecto enfocado en la visualización de información geográfica a través de mapas
+                            interactivos en la web, con una interfaz sencilla, facilitando la exploración de algúna área
+                            de interes que requiera el usuario.
+                            Cabe señalar que la información base contenida en el proyecto es pública.
+                        </p>
+                        <a href="proyecto.html">Ver proyecto</a>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="row g-4">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <div class="project h-100">
-                                    <h3 class="h5">Creación de un Webmapping</h3>
-                                    <p>
-                                        Proyecto enfocado en la visualización de información geográfica a través de
-                                        mapas
-                                        interactivos en la web, facilitando la exploración y comprensión de datos
-                                        espaciales.
-                                    </p>
-                                    <a href="https://github.com/ximenagp" target="_blank">Ver en GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-
+        </section>
+        <section id="proyectos" class="mb-5">
+            <div class="container">
+                <div class="card card-custom border-1 shadow-sm">
+                    <div class="card-body p-4 p-md-5">
+                        <h2 class="mb-3">Otros Proyectos</h2>
+                        <h3 class="h5">Repositorio Git</h3>
+                        <p>
+                            Es un compilado con pequeños proyectos que realicé como aprendizaje.
+                        </p>
+                        <a href="https://github.com/ximenagp" target="_blank">github.com/ximenagp</a>
                     </div>
                 </div>
             </div>
@@ -81,7 +86,7 @@
 
         <section id="contacto">
             <div class="container">
-                <div class="card card-custom border-0 shadow-sm">
+                <div class="card card-custom border-1 shadow-sm">
                     <div class="card-body p-4 p-md-5">
                         <h2 class="mb-3">Contacto</h2>
                         <p>
@@ -112,7 +117,12 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

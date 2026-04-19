@@ -4,28 +4,54 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f3fbf6;
+    background: #73e17c;
     color: #1f3b2d;
     line-height: 1.6;
 }
 
-.hero {
-    background: linear-gradient(135deg, #2e7d5a, #66a182);
+.card-custom {
+    border-radius: 18px;
+    max-width: 820px;
+    margin: 0 auto;
+    background: #93f473;
 }
 
-.card-custom {
-    border-radius: 16px;
+footer {
+    color: #4c6b5d;
+}
+
+h1 {
+    text-align: center;
+    font-size: medium;
+    color: #1a583c;
 }
 
 h2 {
     color: #2e7d5a;
 }
 
+.hero {
+    background: linear-gradient(135deg, #2e7d5a, #66a182);
+}
+
+.navbar-brand,
+.nav-link {
+    color: #2e7d5a;
+}
+
+p {
+    text-align: justify;
+}
+
 .project {
-    background: #eef8f1;
-    border: 1px solid #cfe7d8;
-    border-radius: 12px;
+    background: linear-gradient(135deg, #7bbf94, #4f8f6b);
+    border: 1px solid #3f7a59;
+    border-radius: 14px;
     padding: 20px;
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(46, 125, 90, 0.18);
+    color: white;
 }
 
 .project h3 {
@@ -33,24 +59,25 @@ h2 {
     margin-bottom: 12px;
 }
 
-.project a,
-#contacto a {
-    color: #2e7d5a;
+.project a {
+    color: #f3fff6;
     text-decoration: none;
     font-weight: bold;
 }
 
-.project a:hover,
-#contacto a:hover,
-.nav-link:hover {
+.project a:hover {
     text-decoration: underline;
 }
 
-.navbar-brand,
-.nav-link {
-    color: #2e7d5a !important;
+.video-container {
+    margin: 20px auto 30px;
+    padding: 10px;
+    text-align: center;
 }
 
-footer {
-    color: #4c6b5d;
+.video-proyecto {
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin: 10 auto;
 }
