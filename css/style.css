@@ -1,105 +1,56 @@
-/*{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth;
-    }*/
+* {
+    scroll-behavior: smooth;
+}
 
-    body {
-      font-family: Arial, sans-serif;
-      background: #f3fbf6;
-      color: #1f3b2d;
-      line-height: 1.6;
-    }
+body {
+    font-family: Arial, sans-serif;
+    background: #f3fbf6;
+    color: #1f3b2d;
+    line-height: 1.6;
+}
 
-    header {
-      background: linear-gradient(135deg, #2e7d5a, #66a182);
-      color: white;
-      text-align: center;
-      padding: 70px 20px;
-    }
+.hero {
+    background: linear-gradient(135deg, #2e7d5a, #66a182);
+}
 
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
+.card-custom {
+    border-radius: 16px;
+}
 
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.95;
-    }
+h2 {
+    color: #2e7d5a;
+}
 
-    nav {
-      background: white;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-      position: sticky;
-      top: 0;
-    }
+.project {
+    background: #eef8f1;
+    border: 1px solid #cfe7d8;
+    border-radius: 12px;
+    padding: 20px;
+}
 
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #2e7d5a;
-      font-weight: bold;
-    }
+.project h3 {
+    color: #245c43;
+    margin-bottom: 12px;
+}
 
-    nav a:hover {
-      color: #1f5c42;
-    }
+.project a,
+#contacto a {
+    color: #2e7d5a;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    section {
-      max-width: 950px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
+.project a:hover,
+#contacto a:hover,
+.nav-link:hover {
+    text-decoration: underline;
+}
 
-    .card {
-      background: white;
-      border-radius: 14px;
-      padding: 30px;
-      margin-bottom: 25px;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-    }
+.navbar-brand,
+.nav-link {
+    color: #2e7d5a !important;
+}
 
-    h2 {
-      color: #2e7d5a;
-      margin-bottom: 15px;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 20px;
-    }
-
-    .project {
-      background: #eef8f1;
-      border: 1px solid #cfe7d8;
-      border-radius: 12px;
-      padding: 20px;
-    }
-
-    .project h3 {
-      margin-bottom: 10px;
-      color: #245c43;
-    }
-
-    .project a,
-    .contact a {
-      color: #2e7d5a;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .project a:hover,
-    .contact a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 25px;
-      color: #4c6b5d;
-    }
+footer {
+    color: #4c6b5d;
+}
