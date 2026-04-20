@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #73e17c;
-    color: #1f3b2d;
+    background: rgb(231, 228, 221);
+    color: #0b1410;
     line-height: 1.6;
 }
 
@@ -13,30 +13,31 @@ body {
     border-radius: 18px;
     max-width: 820px;
     margin: 0 auto;
-    background: #93f473;
+    background: #f1e8e8;
 }
 
 footer {
-    color: #4c6b5d;
+    color: #090a05;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
-    font-size: medium;
-    color: #1a583c;
+    font-size: 200%;
+    color: #000000;
 }
 
 h2 {
     color: #2e7d5a;
 }
 
-.hero {
-    background: linear-gradient(135deg, #2e7d5a, #66a182);
+.href {
+    color: blueviolet;
 }
 
 .navbar-brand,
 .nav-link {
-    color: #2e7d5a;
+    color: #174814;
 }
 
 p {
@@ -55,18 +56,27 @@ p {
 }
 
 .project h3 {
-    color: #245c43;
+    color: #174f35;
     margin-bottom: 12px;
 }
 
 .project a {
-    color: #f3fff6;
+    color: #011306;
     text-decoration: none;
     font-weight: bold;
 }
 
 .project a:hover {
     text-decoration: underline;
+}
+
+.subtitulo1 {
+    text-align: center;
+}
+
+.subtitulof {
+    text-align: center;
+    font-size: small;
 }
 
 .video-container {
