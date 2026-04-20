@@ -43,6 +43,9 @@ h2 {
 p {
     text-align: justify;
 }
+.p02{
+    text-align: center;
+}
 
 .project {
     background: linear-gradient(135deg, #7bbf94, #4f8f6b);
